@@ -1,0 +1,40 @@
+{
+    "serviceg": {
+        "upstream_list": [
+            "servicea",
+            "serviceb",
+            "servicec",
+            "serviced",
+            "servicee",
+            "servicef"
+        ],
+        "upstream_module": false,
+        "downstream_module": false,
+        "alert_module": true,
+        "alert_time": "2022-11-21 15:22:27",
+        "deepth": 0,
+        "change_ticket": {}
+    },
+    "serviceh": {
+        "deepth": 1,
+        "change_ticket": {
+            "module_name": "serviceh",
+            "module_id": 0,
+            "module_idc": "",
+            "platform": "platfrom1",
+            "task_id": "123456",
+            "task_type": 1,
+            "reason": "update code",
+            "operator": "test",
+            "create_time": 1668949982,
+            "last_update_time": 1669019750,
+            "task_status": "finish"
+        },
+        "upstream_module": false,
+        "downstream_module": true,
+        "alert_module": false,
+        "upstream_list": [
+            "serviceg"
+        ]
+    }
+}

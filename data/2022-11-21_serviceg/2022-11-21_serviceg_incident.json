@@ -1,0 +1,8 @@
+{
+    "alert_module": "serviceg",
+    "alert_time": "2022-11-21 15:22:27",
+    "root_module": "serviceh",
+    "platform": "platfrom1",
+    "task_id": "123456",
+    "gray": 0
+}

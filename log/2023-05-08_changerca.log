@@ -1,0 +1,23 @@
+[INFO]2023-05-08 16:50:13,966 ranker.py:53: -------------------final score------------------
+[INFO]2023-05-08 16:50:13,966 ranker.py:55: 2022-11-21 15:22:27, serviceg,  serviceh
+[INFO]2023-05-08 16:50:14,007 ranker.py:140: difference result ('serviceg', 0.0, 'nochange', 0, 3, None, None)
+[INFO]2023-05-08 16:50:14,008 ranker.py:405: -------------------deep score------------------
+[INFO]2023-05-08 16:50:14,008 ranker.py:406: {'serviceg': 1.0, 'serviceh': 0.5}
+[INFO]2023-05-08 16:50:14,008 ranker.py:444: -------------------time score------------------
+[INFO]2023-05-08 16:50:14,008 ranker.py:445: {'serviceh': 1.0}
+[INFO]2023-05-08 16:50:14,037 difference.py:472: -------------------change difference score------------------
+[INFO]2023-05-08 16:50:14,038 difference.py:473: {'serviceh': (0.0, 'gray', 0, 3, 'platfrom1', '123456')}
+[INFO]2023-05-08 16:50:14,065 difference.py:472: -------------------old difference score------------------
+[INFO]2023-05-08 16:50:14,066 difference.py:473: {'serviceh': (0.0, 'old', 0, 3, 'platfrom1', '123456')}
+[INFO]2023-05-08 16:50:14,066 ranker.py:172: OrderedDict([('serviceh', {'score': 1.5, 'platform': 'platfrom1', 'task_id': '123456', 'fault_type': 'suspicious'})])
+[INFO]2023-05-08 16:50:14,066 ranker.py:176: serviceh, {'score': 1.5, 'platform': 'platfrom1', 'task_id': '123456', 'fault_type': 'suspicious'}, rank is 1
+[INFO]2023-05-08 16:50:14,066 main.py:38: serviceh,serviceh,platfrom1,platfrom1,123456,123456
+[INFO]2023-05-08 16:50:14,066 main.py:42: serviceh,serviceh,platfrom1,platfrom1,123456,123456
+[INFO]2023-05-08 16:50:14,066 main.py:63: -------------------Change Task Top1 score------------------
+[INFO]2023-05-08 16:50:14,066 main.py:65: HR@1:1.0
+[INFO]2023-05-08 16:50:14,066 main.py:68: -------------------Change Task Top3 score------------------
+[INFO]2023-05-08 16:50:14,066 main.py:70: HR@3:1.0
+[INFO]2023-05-08 16:50:14,066 main.py:73: -------------------Change Task Top5 score------------------
+[INFO]2023-05-08 16:50:14,066 main.py:75: HR@5:1.0
+[INFO]2023-05-08 16:50:14,066 main.py:78: -------------------Change Task MAR Result------------------
+[INFO]2023-05-08 16:50:14,066 main.py:79: 1.0
